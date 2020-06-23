@@ -10,13 +10,11 @@
  */
 public class P2Q1 {
        public static void main(String []args) {
-    	double squareRoot;
+    	
     	
     	System.out.println("Number	SquareRoot");
-    	for (int i = 0; i <= 20; i++) {
-    		squareRoot = Math.sqrt(i);
-    		
-    		System.out.printf("%d		%.4f\n", i, squareRoot);
-    	}
+    	for (int i = 0; i <= 20; i++) 
+    	    System.out.printf("%-9d%.4f\n", i, Math.sqrt(i));
+    	
     }
 }

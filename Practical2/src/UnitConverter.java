@@ -8,8 +8,7 @@
  *
  * @author ZY
  */
-import java.lang.Math;
-public class SPQ1 {
+public class UnitConverter {
         public static void main(String []args) {
     	double itc;
     	double cti;
